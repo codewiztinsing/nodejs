@@ -7,4 +7,7 @@ function printMusicName() {
     console.log("hey i'm the list of music")
 }
 
-module.exports.avatar = printMoviesName;
+module.exports = {
+    avatar : printMoviesName,
+    music : printMusicName
+}
