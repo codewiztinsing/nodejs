@@ -1,5 +1,7 @@
 const myDate = new Date();
+var moviesName = require("./movies")
 
+moviesName.avatar()
 
 let object = myDate;
 
